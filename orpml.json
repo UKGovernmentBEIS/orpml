@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Orpml",
+  "definitions": {
+    "Orpml": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "DublinCore": {
+          "$ref": "#/definitions/DublinCore"
+        },
+        "Metadata": {
+          "$ref": "#/definitions/Metadata"
+        },
+        "Document": {
+          "$ref": "#/definitions/Document"
+        }
+      },
+      "required": [
+        "DublinCore",
+        "Metadata",
+        "Document"
+      ],
+      "title": "Orpml"
+    },
+    "DublinCore": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identifier": {
+          "type": "string"
+        },
+        "title:": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "type": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "modified": {
+          "type": "string"
+        },
+        "contributor": {
+          "type": "string"
+        },
+        "valid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "contributor",
+        "date",
+        "description",
+        "format",
+        "identifier",
+        "language",
+        "modified",
+        "publisher",
+        "title:",
+        "type",
+        "valid"
+      ],
+      "title": "DublinCore"
+    },
+    "Metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Formally": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Formally"
+          }
+        },
+        "Revision": {
+          "type": "string",
+          "contentMediaType": "text/html"
+        },
+        "Feedback": {
+          "type": "string",
+          "contentMediaType": "text/html"
+        },
+        "Contents": {
+          "$ref": "#/definitions/Contents"
+        },
+        "ReleaseNotes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ReleaseNote"
+          }
+        },
+        "Copyright": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Contents",
+        "Copyright",
+        "Feedback",
+        "Formally",
+        "ReleaseNotes",
+        "Revision"
+      ],
+      "title": "Metadata"
+    },
+    "Contents": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ContentSection": {
+          "$ref": "#/definitions/ContentSection"
+        }
+      },
+      "required": [
+        "ContentSection"
+      ],
+      "title": "Contents"
+    },
+    "ContentSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ContentHeader": {
+          "type": "string"
+        },
+        "Ref": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ContentSection"
+      ],
+      "title": "ContentSection"
+    },
+    "Formally": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "PreviousIdentifier": {
+          "type": "string",
+          "contentMediaType": "text/html"
+        }
+      },
+      "required": [
+        "PreviousIdentifier"
+      ],
+      "title": "Formally"
+    },
+    "ReleaseNote": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Version": {
+          "type": "string"
+        },
+        "Date": {
+          "type": "string",
+          "format": "date"
+        },
+        "Details": {
+          "type": "string",
+          "contentMediaType": "text/html"
+        }
+      },
+      "required": [
+        "Date",
+        "Details",
+        "Version"
+      ],
+      "title": "ReleaseNote"
+    },
+    "Document": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Content": {
+          "type": "string",
+          "contentMediaType": "text/html"
+        }
+      },
+      "required": [
+        "Content"
+      ],
+      "title": "Document"
+    }
+  }
+}
