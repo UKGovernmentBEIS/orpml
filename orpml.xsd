@@ -1,11 +1,11 @@
 <orpml 
 xmlns="http://www.beis.gov.uk/namespaces/orpml" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instanc"
-DocumentURI="http://www.beis.gov.uk/ukpga/Eliz2/6-7/51"
-IdURI="http://www.legislation.gov.uk/id/ukpga/Eliz2/6-7/51"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+DocumentURI="http://www.beis.gov.uk/to/be/defined"
+IdURI="http://www.legislation.gov.uk/to/be/defined"
 xsi:schemaLocation="http://www.beis.gov.uk/namespaces/orpml"
-SchemaVersion=“1.0”
-xmlns:dc=“http://purl.org/dc/elements/1.1/“>
+SchemaVersion='1.0'
+xmlns:dc='http://purl.org/dc/elements/1.1/'>
 
   <xs:element name="DublinCore">
     <xs:complexType>
