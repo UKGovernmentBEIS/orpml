@@ -26,21 +26,21 @@ xmlns:dc=“http://purl.org/dc/elements/1.1/“>
   </xs:element>
 
   <!-- define HTML content type-->
-  <xs:complexType name="html" mixed="true">
+  <xs:complexType name="HTMLType" mixed="true">
     <xs:all>
       <xs:any namespace="http://www.w3.org/1999/xhtml" minOccurs="0" maxOccurs="unbounded"/>
     </xs:all>
   </xs:complexType>
 
   <!-- define ContentSection type-->
-  <xs:complexType name="content-section" type="html" minOccurs="0" maxOccurs="unbounded"/>
+  <xs:complexType name="ContentSectionType" type="HTMLType" minOccurs="0" maxOccurs="unbounded"/>
 
   <!-- define release-note content type-->
-  <xs:complexType name="release-note" mixed="true">
+  <xs:complexType name="ReleaseNoteType" mixed="true">
     <xs:sequence>
-      <xs:element name="version" type="html" minOccurs="1" maxOccurs="1"/>
-      <xs:element name="date" type="html" minOccurs="1" maxOccurs="1"/>
-      <xs:element name="details" type="html" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="version" type="HTMLType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="date" type="HTMLType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="details" type="HTMLType" minOccurs="1" maxOccurs="1"/>
     </xs:sequence>
   </xs:complexType>
 
@@ -51,21 +51,21 @@ xmlns:dc=“http://purl.org/dc/elements/1.1/“>
         <xs:element name="Formally">
           <xs:complexType>
             <xs:all>
-              <xs:element name="PreviousIdentifier" type="html" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="PreviousIdentifier" type="HTMLType" minOccurs="0" maxOccurs="unbounded"/>
             </xs:all>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Revision" type="html" minOccurs="0" maxOccurs="1"/>
-        <xs:element name="Feedback" type="html" minOccurs="0" maxOccurs="1"/>
-        <xs:element name="Copyright" type="html" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Revision" type="HTMLType" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Feedback" type="HTMLType" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Copyright" type="HTMLType" minOccurs="0" maxOccurs="1"/>
         <xs:element name="Contents">
           <xs:complexType>
             <xs:choice>
-              <xs:element name="ContentSection" type="html" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="ContentSection" type="ContentSectionType" minOccurs="0" maxOccurs="unbounded"/>
               <xs:element name="ContentSubSection">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="ContentSection" type="html" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="ContentSection" type="ContentSectionType" minOccurs="0" maxOccurs="unbounded"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -75,7 +75,7 @@ xmlns:dc=“http://purl.org/dc/elements/1.1/“>
         <xs:element name="ReleaseNotes">
           <xs:complexType>
             <xs:all>
-              <xs:element name="ReleaseNote" type="release-note" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="ReleaseNote" type="ReleaseNoteType" minOccurs="0" maxOccurs="unbounded"/>
             </xs:all>
           </xs:complexType>
         </xs:element>
@@ -84,5 +84,5 @@ xmlns:dc=“http://purl.org/dc/elements/1.1/“>
   </xs:element>
 
   <!-- Document markup goes here -->
-  <xs:element name="DocumentContent" true="html" minOccurs="1" maxOccurs="1"/>
+  <xs:element name="DocumentContent" type="HTMLType" minOccurs="1" maxOccurs="1"/>
 </orpml>
