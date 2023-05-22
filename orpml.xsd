@@ -1,1 +1,89 @@
+<orpml 
+xmlns="http://www.beis.gov.uk/namespaces/orpml" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+DocumentURI="http://www.beis.gov.uk/to/be/decided"
+IdURI="http://www.legislation.gov.uk/to/be/decided"
+xsi:schemaLocation="http://www.beis.gov.uk/namespaces/orpml"
+SchemaVersion=“1.0”
+xmlns:dc=“http://purl.org/dc/elements/1.1/“>
 
+  <xs:element name="DublinCore">
+    <xs:complexType>
+      <xs:sequence>
+        <dc:identifier minOccurs="1" maxOccurs="1"/>
+        <dc:title minOccurs="1" maxOccurs="1"/>
+        <dc:description minOccurs="0" maxOccurs="1"/>
+        <dc:date minOccurs="1" maxOccurs="1"/>
+        <dc:type minOccurs="1" maxOccurs="1"/>
+        <dc:format minOccurs="1" maxOccurs="1"/>
+        <dc:language minOccurs="1" maxOccurs="1"/>
+        <dc:publisher minOccurs="1" maxOccurs="1"/>
+        <dc:modified minOccurs="1" maxOccurs="1"/>
+        <dc:contributor minOccurs="1" maxOccurs="1"/>
+        <dc:valid minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- define HTML content type-->
+  <xs:complexType name="html" mixed="true">
+    <xs:sequence>
+      <xs:any namespace="http://www.w3.org/1999/xhtml" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- define ContentSection type-->
+  <xs:complexType name="content-section" type="html" minOccurs="0" maxOccurs="unbounded"/>
+
+  <!-- define release-note content type-->
+  <xs:complexType name="release-note" mixed="true">
+    <xs:sequence>
+      <xs:element name="version" type="html" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="date" type="html" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="details" type="html" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- document level metadata (apart from DC above) -->
+  <xs:element name="Metadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Formally">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PreviousIdentifier" type="html" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Revision" type="html" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Feedback" type="html" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Copyright" type="html" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="Contents">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContentSection" type="html" minOccurs="0" maxOccurs="unbounded"/>
+              OR
+              <xs:element name="ContentSubSection">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ContentSection" type="html" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReleaseNotes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReleaseNote" type="release-note" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Document markup goes here -->
+  <xs:element name="DocumentContent" true="html" minOccurs="1" maxOccurs="1"/>
+</orpml>
