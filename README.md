@@ -81,13 +81,15 @@ Optional elements:
 	DCAT optional elements and DCAT ‘Mandatory if Applicable’ elements
 	
 #### DublinCore fields
-[image:CD8B8D7D-FD26-4E58-834C-7E7324495C0E-1595-0000E0DE3A7631DA/Screenshot 2023-06-08 at 4.17.54 pm.png]
-[image:C0511504-D2AF-4F95-A410-6338AE68EE18-1595-0000E10A414D63D8/Screenshot 2023-06-08 at 4.22.29 pm.png]
+![Screenshot 2023-06-08 at 4 17 54 pm](https://github.com/public-tech/orpml/assets/468596/baf94073-7888-4946-9cb4-4bd7d36649d7)
+![Screenshot 2023-06-08 at 4 22 29 pm](https://github.com/public-tech/orpml/assets/468596/bb5e3199-6eb6-4048-98b4-e5a66bf0ee55)
+
 
 #### DCAT fields
-[image:1E4A8278-8F6F-4279-8EA7-9E6A472A5154-1595-0000E0EEF3000DD8/Screenshot 2023-06-08 at 4.17.54 pm.png]
-[image:37D1BCBB-19E7-4D37-83BE-DCA751959AD0-1595-0000E0EC98E93B42/Screenshot 2023-06-08 at 4.17.42 pm.png]
-[image:93BA2F80-17A2-48EC-9992-E1318A6BA10F-1595-0000E117B741C432/Screenshot 2023-06-08 at 4.23.36 pm.png]
+![Screenshot 2023-06-08 at 4 17 54 pm](https://github.com/public-tech/orpml/assets/468596/7531639a-0b3f-4a09-be87-d3433535d276)
+![Screenshot 2023-06-08 at 4 17 42 pm](https://github.com/public-tech/orpml/assets/468596/707443e1-0542-4232-be65-df75adf137b0)
+![Screenshot 2023-06-08 at 4 23 36 pm](https://github.com/public-tech/orpml/assets/468596/86d9af52-58e2-4f1c-9173-bd724cd3a3d3)
+
 
 In deciding upon the elements from DCAT for inclusion into ORPML, the following documents were used as references:
 [Record information about data sets you share with others - GOV.UK](https://www.gov.uk/guidance/record-information-about-data-sets-you-share-with-others)
@@ -122,9 +124,10 @@ Specifically, the gov.uk guide to record sharing asks you to consider the follow
 `hasDigitalDocumentPermission` - covered by a combination of `dc:license` and `dcat:securityClassification`
 
 #### Custom fields
-[image:A649B530-933B-47F6-AC76-50CDE7AC25B9-1595-0000E0EFA2BD2836/Screenshot 2023-06-08 at 4.17.54 pm.png]
-[image:E809E305-8604-4A1D-B428-382E809C4831-1595-0000E0ED571968BC/Screenshot 2023-06-08 at 4.17.42 pm.png]
-[image:2C97F04E-6BF3-4951-9A1C-4A077F55003D-1595-0000E0DE3B653EAD/Screenshot 2023-06-08 at 4.18.58 pm.png]
+![Screenshot 2023-06-08 at 4 17 54 pm](https://github.com/public-tech/orpml/assets/468596/1bbbee5a-5bc5-4072-ab82-322c0628fd57)
+![Screenshot 2023-06-08 at 4 17 42 pm](https://github.com/public-tech/orpml/assets/468596/28ff94c7-b5e5-4c8f-a388-d83d2da430fb)
+![Screenshot 2023-06-08 at 4 18 58 pm](https://github.com/public-tech/orpml/assets/468596/f2bc70e8-2de1-495a-97a0-a322474f9965)
+
 These elements are specific to ORPML content and not part of external schemas.
 We have tried to minimise the number of these elements as much as possible.	
 
