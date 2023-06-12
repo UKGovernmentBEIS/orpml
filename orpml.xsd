@@ -6,7 +6,6 @@ xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
 
 <xs:include schemaLocation="http://www.beis.gov.uk/namespaces/orpml" />
-<xs:include schemaLocation="resources.xsd"/>
 
   <!-- define DublinCore content type-->
   <xs:complexType name="dublinCoreType">
