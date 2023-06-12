@@ -5,8 +5,9 @@ DocumentURI="http://www.beis.gov.uk/to/be/defined"
 IdURI="http://www.beis.gov.uk/to/be/defined"
 xsi:schemaLocation="http://www.beis.gov.uk/namespaces/orpml"
 SchemaVersion='1.0'
-xmlns:dc='http://purl.org/dc/elements/1.1/'
-xmlns:dcat='https://www.w3.org/TR/vocab-dcat-2/'>
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
 
   <!-- define DublinCore content type-->
   <xs:element name="DublinCore">
