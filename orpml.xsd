@@ -121,11 +121,11 @@ xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
   </xs:complexType>
 
   <!-- define orpml -->
-  <xs:element name="orpml">
+  <xs:element name="orpml" minOccurs="1" maxOccurs="1">
     <xs:complexType>
       <xs:all>
         <!-- document level metadata -->
-        <xs:element name="metadata">
+        <xs:element name="metadata" minOccurs="1" maxOccurs="1">
           <xs:complexType>
             <xs:all>
               <xs:element name="dublinCore" type="dublinCoreType" minOccurs="1" maxOccurs="1" />
