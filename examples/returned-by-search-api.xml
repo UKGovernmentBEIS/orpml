@@ -74,6 +74,7 @@
         </identifier>
       </identifierOther>
       <seriesTitle>INDG401 (rev2)</seriesTitle>
+      <filesize>12380</filesize><!-- added by ORP -->
       <!-- optional metadata - end -->
     </dcat>
     <orp>
@@ -105,7 +106,7 @@
           <section aria-label="introduction"> 
             <a href="./introduction"/> 
             <h3>Introduction</h3>
-            This brief guide describes what you, as an <div data-orp="entity">employer</div>, need to do to protect your employees from falls from height. It will also be useful to employees and their representatives. Following this guidance is normally enough to comply with the <cite href="https://www.legislation.gov.uk/uksi/1992/3004/contents/made">Work at Height Regulations 2005 (WAHR)</cite>. You are free to take other action, except where the guidance says you must do something specific. Falls from height are one of the biggest causes of workplace fatalities and major injuries. Common causes are falls from ladders and through fragile roofs. The purpose of WAHR is to prevent death and injury from a fall from height. Work at height means work in any place where, if there were no precautions in place, a person could fall a distance liable to cause personal injury. For example you are working at height if you: 
+            This brief guide describes what you, as an <div data-orp="entity">employer</div>, need to do to protect your employees from falls from height. It will also be useful to employees and their representatives. Following this guidance is normally enough to comply with the <cite><a href="https://www.legislation.gov.uk/uksi/1992/3004/contents/made">Work at Height Regulations 2005 (WAHR)</a></cite>. You are free to take other action, except where the guidance says you must do something specific. Falls from height are one of the biggest causes of workplace fatalities and major injuries. Common causes are falls from ladders and through fragile roofs. The purpose of WAHR is to prevent death and injury from a fall from height. Work at height means work in any place where, if there were no precautions in place, a person could fall a distance liable to cause personal injury. For example you are working at height if you: 
             <ul>
               <li>are working on a ladder or a flat roof&#59;</li>
               <li>could fall through a fragile surface&#59;</li>
