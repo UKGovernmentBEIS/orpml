@@ -160,7 +160,7 @@ This text is really important and it deserves to be in its own section.</br><em>
 
 Sub Sections
 ```
-<section data-section-type="subSection" aria-label="sub section name">
+<section data-orp-type="subSection" aria-label="sub section name">
 	<a href="this/is/the/link/to/the/subSection" aria-describedby="article link information"/>
 This text is not as important so it gets to be in a sub section.</br><em>All</em> standard HTML markup will be supported
 </section>
@@ -168,7 +168,7 @@ This text is not as important so it gets to be in a sub section.</br><em>All</em
 
 Clause
 ```
-<section data-section-type="clause" aria-label="clause name">
+<section data-orp-type="clause" aria-label="clause name">
   <a href="this/is/the/link/to/the/clause" aria-describedby="clause link information"/>
 This text is really important and it deserves to be in its own section.</br><em>All</em> standard HTML markup will be supported
 </section>
@@ -176,15 +176,15 @@ This text is really important and it deserves to be in its own section.</br><em>
 
 Entities
 ```
-<section data-section-type="clause" aria-label="section name">
+<section data-orp-type="clause" aria-label="section name">
   <a href="this/is/the/link/to/the/clause" aria-describedby="section link information">
-We will be talking about new regulations from <div data-entity="The Bank of England" aria-label="entity">The Bank of England</div>.
+We will be talking about new regulations from <div data-orp-entity="The Bank of England" aria-label="entity">The Bank of England</div>.
 </section>
 ```
 
 Citations
 ```
-<section data-section-type="clause" aria-label="section name">
+<section data-orp-type="clause" aria-label="section name">
   <a href="this/is/the/link/to/the/clause" aria-describedby="section link information"/>
 This regulation derives from the <cite><a href=-"https://www.legislation.gov.uk/ukpga/2018/12/contents">Data Protection Act 2018</a></cite>
 </section>

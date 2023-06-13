@@ -40,11 +40,11 @@ xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
       <dc:dateCopyrighted minOccurs="0" maxOccurs="1"/>
       <dc:dateSubmitted minOccurs="0" maxOccurs="1"/>
       <dc:extent minOccurs="0" maxOccurs="1"/>
-      <dc:hasFOrmat minOccurs="0" maxOccurs="1"/>
+      <dc:hasFormat minOccurs="0" maxOccurs="1"/>
       <dc:hasPart minOccurs="0" maxOccurs="1"/>
       <dc:hasVersion minOccurs="0" maxOccurs="1"/>
       <dc:instructionalMethod minOccurs="0" maxOccurs="1"/>
-      <dc:isFOrmatOf minOccurs="0" maxOccurs="1"/>
+      <dc:isFormatOf minOccurs="0" maxOccurs="1"/>
       <dc:isPartOf minOccurs="0" maxOccurs="1"/>
       <dc:isReferencedBy minOccurs="0" maxOccurs="1"/>
       <dc:isReplacedBy minOccurs="0" maxOccurs="1"/>
