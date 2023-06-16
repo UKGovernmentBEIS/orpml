@@ -2,114 +2,109 @@
 <xs:schema 
 xmlns="http://www.beis.gov.uk/namespaces/orpml"
 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms"
 xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
 
-<xs:include schemaLocation="http://www.beis.gov.uk/namespaces/orpml" />
+<xs:import namespace="http://purl.org/dc/terms"
+  schemaLocation="	http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
+</xs:import>
 
   <!-- define DublinCore content type-->
-  <xs:complexType name="dublinCoreType">
+  <xs:complexType name="dublinCoreMetadataType">
     <xs:all>
-      <dc:contributor minOccurs="1" maxOccurs="1"/>
-      <dc:coverage minOccurs="1" maxOccurs="1"/>
-      <dc:created minOccurs="1" maxOccurs="1"/>
-      <dc:creator minOccurs="1" maxOccurs="1"/>
-      <dc:description minOccurs="1" maxOccurs="1"/>
-      <dc:format minOccurs="1" maxOccurs="1"/>
-      <dc:identifier minOccurs="1" maxOccurs="1"/>
-      <dc:issued minOccurs="1" maxOccurs="1"/>
-      <dc:language minOccurs="1" maxOccurs="1"/>
-      <dc:license minOccurs="1" maxOccurs="1"/>
-      <dc:modified minOccurs="1" maxOccurs="1"/>
-      <dc:subject minOccurs="1" maxOccurs="1"/>
-      <dc:title minOccurs="1" maxOccurs="1"/>
-      <dc:type minOccurs="1" maxOccurs="1"/>
+      <element name="contributor" type="dcterms:contributor"  minOccurs="1" maxOccurs="1"/>
+      <element name="coverage" type="dcterms:coverage"  minOccurs="1" maxOccurs="1"/>
+      <element name="created" type="dcterms:created"  minOccurs="1" maxOccurs="1"/>
+      <element name="creator" type="dcterms:creator"  minOccurs="1" maxOccurs="1"/>
+      <element name="description" type="dcterms:description"  minOccurs="1" maxOccurs="1"/>
+      <element name="format" type="dcterms:format"  minOccurs="1" maxOccurs="1"/>
+      <element name="identifier" type="dcterms:identifier"  minOccurs="1" maxOccurs="1"/>
+      <element name="issued" type="dcterms:issued"  minOccurs="1" maxOccurs="1"/>
+      <element name="language" type="dcterms:language"  minOccurs="1" maxOccurs="1"/>
+      <element name="license" type="dcterms:license"  minOccurs="1" maxOccurs="1"/>
+      <element name="modified" type="dcterms:modified"  minOccurs="1" maxOccurs="1"/>
+      <element name="subject" type="dcterms:subject"  minOccurs="1" maxOccurs="1"/>
+      <element name="title" type="dcterms:title"  minOccurs="1" maxOccurs="1"/>
+      <element name="type" type="dcterms:type"  minOccurs="1" maxOccurs="1"/>
 
-      <dc:abstract minOccurs="0" maxOccurs="1"/>
-      <dc:accessRights minOccurs="0" maxOccurs="1"/>
-      <dc:accrualMethod minOccurs="0" maxOccurs="1"/>
-      <dc:accrualPeriodicity minOccurs="0" maxOccurs="1"/>
-      <dc:accrualPolicy minOccurs="0" maxOccurs="1"/>
-      <dc:alternative minOccurs="0" maxOccurs="1"/>
-      <dc:audience minOccurs="0" maxOccurs="1"/>
-      <dc:available minOccurs="0" maxOccurs="1"/>
-      <dc:bibleographicCitation minOccurs="0" maxOccurs="1"/>
-      <dc:conformsTo minOccurs="0" maxOccurs="1"/>
-      <dc:date minOccurs="0" maxOccurs="1"/>
-      <dc:dateAccepted minOccurs="0" maxOccurs="1"/>
-      <dc:dateCopyrighted minOccurs="0" maxOccurs="1"/>
-      <dc:dateSubmitted minOccurs="0" maxOccurs="1"/>
-      <dc:extent minOccurs="0" maxOccurs="1"/>
-      <dc:hasFormat minOccurs="0" maxOccurs="1"/>
-      <dc:hasPart minOccurs="0" maxOccurs="1"/>
-      <dc:hasVersion minOccurs="0" maxOccurs="1"/>
-      <dc:instructionalMethod minOccurs="0" maxOccurs="1"/>
-      <dc:isFormatOf minOccurs="0" maxOccurs="1"/>
-      <dc:isPartOf minOccurs="0" maxOccurs="1"/>
-      <dc:isReferencedBy minOccurs="0" maxOccurs="1"/>
-      <dc:isReplacedBy minOccurs="0" maxOccurs="1"/>
-      <dc:isRequiredBy minOccurs="0" maxOccurs="1"/>
-      <dc:isVersionOf minOccurs="0" maxOccurs="1"/>
-      <dc:mediator minOccurs="0" maxOccurs="1"/>
-      <dc:medium minOccurs="0" maxOccurs="1"/>
-      <dc:provenance minOccurs="0" maxOccurs="1"/>
-      <dc:publisher minOccurs="0" maxOccurs="1"/>
-      <dc:references minOccurs="0" maxOccurs="1"/>
-      <dc:replaces minOccurs="0" maxOccurs="1"/>
-      <dc:relation minOccurs="0" maxOccurs="1"/>
-      <dc:requires minOccurs="0" maxOccurs="1"/>
-      <dc:rights minOccurs="0" maxOccurs="1"/>
-      <dc:rightsHolder minOccurs="0" maxOccurs="1"/>
-      <dc:spacial minOccurs="0" maxOccurs="1"/>
-      <dc:source minOccurs="0" maxOccurs="1"/>
-      <dc:tableOfContents minOccurs="0" maxOccurs="1"/>
-      <dc:temporal minOccurs="0" maxOccurs="1"/>
-      <dc:valid minOccurs="0" maxOccurs="1"/>
+      <element name="abstract" type="dcterms:abstract"  minOccurs="0" maxOccurs="1"/>
+      <element name="accessRights" type="dcterms:accessRights"  minOccurs="0" maxOccurs="1"/>
+      <element name="accrualMethod" type="dcterms:accrualMethod"  minOccurs="0" maxOccurs="1"/>
+      <element name="accrualPeriodicity" type="dcterms:accrualPeriodicity"  minOccurs="0" maxOccurs="1"/>
+      <element name="accrualPolicy" type="dcterms:accrualPolicy"  minOccurs="0" maxOccurs="1"/>
+      <element name="alternative" type="dcterms:alternative"  minOccurs="0" maxOccurs="1"/>
+      <element name="audience" type="dcterms:audience"  minOccurs="0" maxOccurs="1"/>
+      <element name="available" type="dcterms:available"  minOccurs="0" maxOccurs="1"/>
+      <element name="bibleographicCitation" type="dcterms:bibleographicCitation"  minOccurs="0" maxOccurs="1"/>
+      <element name="conformsTo" type="dcterms:conformsTo"  minOccurs="0" maxOccurs="1"/>
+      <element name="date" type="dcterms:date"  minOccurs="1" maxOccurs="0"/>
+      <element name="dateAccepted" type="dcterms:dateAccepted"  minOccurs="0" maxOccurs="1"/>
+      <element name="dateCopyrighted" type="dcterms:dateCopyrighted"  minOccurs="0" maxOccurs="1"/>
+      <element name="dateSubmitted" type="dcterms:dateSubmitted"  minOccurs="0" maxOccurs="1"/>
+      <element name="extent" type="dcterms:extent"  minOccurs="0" maxOccurs="1"/>
+      <element name="hasFormat" type="dcterms:hasFormat"  minOccurs="0" maxOccurs="1"/>
+      <element name="hasPart" type="dcterms:hasPart"  minOccurs="0" maxOccurs="1"/>
+      <element name="hasVersion" type="dcterms:hasVersion"  minOccurs="0" maxOccurs="1"/>
+      <element name="instructionalMethod" type="dcterms:instructionalMethod"  minOccurs="0" maxOccurs="1"/>
+      <element name="isFormatOf" type="dcterms:isFormatOf"  minOccurs="1" maxOccurs="0"/>
+      <element name="isPartOf" type="dcterms:isPartOf"  minOccurs="0" maxOccurs="1"/>
+      <element name="isReferencedBy" type="dcterms:isReferencedBy"  minOccurs="0" maxOccurs="1"/>
+      <element name="isReplacedBy" type="dcterms:isReplacedBy"  minOccurs="0" maxOccurs="1"/>
+      <element name="isRequiredBy" type="dcterms:isRequiredBy"  minOccurs="0" maxOccurs="1"/>
+      <element name="isVersionOf" type="dcterms:isVersionOf"  minOccurs="0" maxOccurs="1"/>
+      <element name="mediator" type="dcterms:mediator"  minOccurs="0" maxOccurs="1"/>
+      <element name="medium" type="dcterms:medium"  minOccurs="0" maxOccurs="1"/>
+      <element name="provenance" type="dcterms:provenance"  minOccurs="0" maxOccurs="1"/>
+      <element name="publisher" type="dcterms:publisher"  minOccurs="0" maxOccurs="1"/>
+      <element name="references" type="dcterms:references"  minOccurs="0" maxOccurs="1"/>
+      <element name="replaces" type="dcterms:replaces"  minOccurs="0" maxOccurs="1"/>
+      <element name="relation" type="dcterms:relation"  minOccurs="0" maxOccurs="1"/>
+      <element name="requires" type="dcterms:requires"  minOccurs="0" maxOccurs="1"/>
+      <element name="rights" type="dcterms:rights"  minOccurs="0" maxOccurs="1"/>
+      <element name="rightsHolder" type="dcterms:rightsHolder"  minOccurs="0" maxOccurs="1"/>
+      <element name="spacial" type="dcterms:spacial"  minOccurs="0" maxOccurs="1"/>
+      <element name="source" type="dcterms:source"  minOccurs="0" maxOccurs="1"/>
+      <element name="tableOfContents" type="dcterms:tableOfContents"  minOccurs="0" maxOccurs="1"/>
+      <element name="temporal" type="dcterms:temporal"  minOccurs="0" maxOccurs="1"/>
+      <element name="valid" type="dcterms:valid"  minOccurs="0" maxOccurs="1"/>
     </xs:all>
   </xs:complexType>
 
   <!-- define DCAT content type-->
-  <xs:complexType name="dcatType">
+  <xs:complexType name="dcatMetadataType">
     <xs:all>
       <dcat:frequency minOccurs="1" maxOccurs="1"/>
       <dcat:itemTitle minOccurs="1" maxOccurs="1"/>
-      <dcat:keywords minOccurs="1" maxOccurs="1"/>
+      <dcat:keywords minOccurs="1" maxOccurs="unbounded"/>
       <dcat:issuingBody minOccurs="1" maxOccurs="1"/>
-      <dcat:relatedResource minOccurs="1" maxOccurs="1"/>
       <dcat:securityClassification minOccurs="1" maxOccurs="1"/>
-      <dcat:topic minOccurs="1" maxOccurs="1"/>
+      <dcat:topic minOccurs="1" maxOccurs="unbounded"/>
 
       <dcat:additionalInformation minOccurs="0" maxOccurs="1"/>
-      <dcat:alternativeTitle minOccurs="0" maxOccurs="1"/>
+      <dcat:alternativeTitle minOccurs="0" maxOccurs="unbounded"/>
       <dcat:dateArchived minOccurs="0" maxOccurs="1"/>
       <dcat:contactName minOccurs="0" maxOccurs="1"/>
       <dcat:contactEMail minOccurs="0" maxOccurs="1"/>
-      <dcat:seriesTitle minOccurs="0" maxOccurs="1"/>
-      <dcat:seriesNumber minOccurs="0" maxOccurs="1"/>
+      <dcat:seriesTitle minOccurs="0" maxOccurs="unbounded"/>
+      <dcat:seriesNumber minOccurs="0" maxOccurs="unbounded"/>
       <dcat:timePeriodCoverageStartDate minOccurs="0" maxOccurs="1"/>
       <dcat:timePeriodCoverageEndDate minOccurs="0" maxOccurs="1"/>
 
       <dcat:filesize minOccurs="0" maxOccurs="1"/>
       <dcat:contactOther minOccurs="0" maxOccurs="1"/>
+      <dcat:identifierOther minOccurs="0" maxOccurs="unbounded"/>
       <dcat:itemDescription minOccurs="0" maxOccurs="1"/>
       <dcat:placeOfPublication minOccurs="0" maxOccurs="1"/>
+      <dcat:relatedResource minOccurs="0" maxOccurs="unbounded"/>
+
     </xs:all>
   </xs:complexType>
 
   <!-- define ORP metadata type-->
-  <xs:complexType name="orpType">
-    <xs:all>
-      <xs:element name="regulatoryTopics" minOccurs="1" maxOccurs="1">
-        <xs:complexType>
-          <xs:all>
-            <xs:element name="regulatoryTopic" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-          </xs:all>
-        </xs:complexType>
-      </xs:element>
-
-      <xs:element name="status" type="xs:string" minOccurs="1" maxOccurs="1" />
-
-      <xs:element name="dateUploaded" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
+  <xs:complexType name="orpMetadataType">
+    <xs:element name="regulatoryTopic" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    <xs:element name="status" type="xs:string" minOccurs="1" maxOccurs="1" />
+    <xs:element name="dateUploaded" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
     </xs:all>
   </xs:complexType>
 
@@ -128,9 +123,9 @@ xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
         <xs:element name="metadata" minOccurs="1" maxOccurs="1">
           <xs:complexType>
             <xs:all>
-              <xs:element name="dublinCore" type="dublinCoreType" minOccurs="1" maxOccurs="1" />
-              <xs:element name="dcat" type="dcatType" minOccurs="1" maxOccurs="1" />
-              <xs:element name="orp" type="orpType" minOccurs="1" maxOccurs="1" />
+              <xs:element name="dublinCore" type="dublinCoreMetadataType" minOccurs="1" maxOccurs="1" />
+              <xs:element name="dcat" type="dcatMetadataType" minOccurs="1" maxOccurs="1" />
+              <xs:element name="orp" type="orpMetadataType" minOccurs="1" maxOccurs="1" />
             </xs:all>
           </xs:complexType>
         </xs:element>
