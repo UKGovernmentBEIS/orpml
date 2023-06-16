@@ -2,15 +2,19 @@
 <xs:schema 
 xmlns="http://www.beis.gov.uk/namespaces/orpml"
 xmlns:xs="http://www.w3.org/2001/XMLSchema"
-xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms"
 xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
 
-<xs:include schemaLocation="http://www.beis.gov.uk/namespaces/orpml" />
+<xs:import namespace="http://purl.org/dc/terms"
+  schemaLocation="	http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
+</xs:import>
 
   <!-- define DublinCore content type-->
-  <xs:complexType name="dublinCoreType">
+  <xs:complexType name="dublinCoreMetadataType">
     <xs:all>
+      <element name="contributor" type="dcterms:contributor"  minOccurs="1" maxOccurs="1"/>
       <dc:contributor minOccurs="1" maxOccurs="1"/>
+
       <dc:coverage minOccurs="1" maxOccurs="1"/>
       <dc:created minOccurs="1" maxOccurs="1"/>
       <dc:creator minOccurs="1" maxOccurs="1"/>
@@ -128,7 +132,7 @@ xmlns:dcat="https://www.w3.org/TR/vocab-dcat-2/">
         <xs:element name="metadata" minOccurs="1" maxOccurs="1">
           <xs:complexType>
             <xs:all>
-              <xs:element name="dublinCore" type="dublinCoreType" minOccurs="1" maxOccurs="1" />
+              <xs:element name="dublinCore" type="dublinCoreMetadataType" minOccurs="1" maxOccurs="1" />
               <xs:element name="dcat" type="dcatType" minOccurs="1" maxOccurs="1" />
               <xs:element name="orp" type="orpType" minOccurs="1" maxOccurs="1" />
             </xs:all>

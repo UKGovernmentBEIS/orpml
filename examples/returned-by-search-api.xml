@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<orpml xmlns="http://www.beis.gov.uk/namespaces/orpml">
+<orpml xmlns="http://www.beis.gov.uk/namespaces/orpml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.beis.gov.uk/namespaces/orpml orpml-0.1.xsd">
   <metadata>
     <dublinCore>
       <!-- mandatory metadata - start -->
