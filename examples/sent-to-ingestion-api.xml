@@ -56,10 +56,9 @@
     </dcat>
     <orp>
       <!-- mandatory metadata - start -->
-      <regulatoryTopics><!-- GDS taxonomy topics -->
-        <regulatoryTopic>Work</regulatoryTopic>
-        <regulatoryTopic>Health and safety at work</regulatoryTopic>
-      </regulatoryTopics>
+      <!-- GDS taxonomy topics -->
+      <regulatoryTopic>Work</regulatoryTopic>
+      <regulatoryTopic>Health and safety at work</regulatoryTopic>
       <status>published</status>
       <!-- mandatory metadata - end -->
     </orp>
