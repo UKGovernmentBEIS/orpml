@@ -82,13 +82,12 @@ Optional elements:
 	
 #### DublinCore fields
 ![Screenshot 2023-06-08 at 4 17 54 pm](https://github.com/public-tech/orpml/assets/468596/baf94073-7888-4946-9cb4-4bd7d36649d7)
-![Screenshot 2023-06-08 at 4 22 29 pm](https://github.com/public-tech/orpml/assets/468596/bb5e3199-6eb6-4048-98b4-e5a66bf0ee55)
-
+![Screenshot 2023-06-16 at 16 43 25](https://github.com/public-tech/orpml/assets/468596/275deeb7-bf2e-4e67-8afa-b33b0f274a78)
 
 #### DCAT fields
 ![Screenshot 2023-06-08 at 4 17 54 pm](https://github.com/public-tech/orpml/assets/468596/7531639a-0b3f-4a09-be87-d3433535d276)
 ![Screenshot 2023-06-08 at 4 17 42 pm](https://github.com/public-tech/orpml/assets/468596/707443e1-0542-4232-be65-df75adf137b0)
-![Screenshot 2023-06-08 at 4 23 36 pm](https://github.com/public-tech/orpml/assets/468596/86d9af52-58e2-4f1c-9173-bd724cd3a3d3)
+![Screenshot 2023-06-16 at 16 43 40](https://github.com/public-tech/orpml/assets/468596/45af3b68-7f0f-4a7c-b522-f6bb5b8e072b)
 
 
 In deciding upon the elements from DCAT for inclusion into ORPML, the following documents were used as references:
@@ -126,7 +125,7 @@ Specifically, the gov.uk guide to record sharing asks you to consider the follow
 #### Custom fields
 ![Screenshot 2023-06-08 at 4 17 54 pm](https://github.com/public-tech/orpml/assets/468596/1bbbee5a-5bc5-4072-ab82-322c0628fd57)
 ![Screenshot 2023-06-08 at 4 17 42 pm](https://github.com/public-tech/orpml/assets/468596/28ff94c7-b5e5-4c8f-a388-d83d2da430fb)
-![Screenshot 2023-06-08 at 4 18 58 pm](https://github.com/public-tech/orpml/assets/468596/f2bc70e8-2de1-495a-97a0-a322474f9965)
+![Screenshot 2023-06-16 at 16 43 50](https://github.com/public-tech/orpml/assets/468596/8e94c6ff-d46d-41c8-b6c4-0d79bebf8bc0)
 
 These elements are specific to ORPML content and not part of external schemas.
 We have tried to minimise the number of these elements as much as possible.	
