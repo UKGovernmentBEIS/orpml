@@ -1,6 +1,7 @@
 # What do I need to know to help?
 
 If you are looking to help with a contribution to the ORPML standard, We love your input. We want to make contributing to this standard as easy and transparent as possible, whether it's:
+
 - Reporting a bug/issue
 - Discussing the current state of the code
 - Submitting a fix
@@ -13,17 +14,18 @@ We use github to host code, to track issues and feature requests, as well as acc
 
 ## We Use [Github Three-Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
 
-Pull requests are the best way to propose changes to the codebase (we use [Github Three-Flow](https://guides.github.com/introduction/flow/index.html)). 
+Pull requests are the best way to propose changes to the codebase (we use [Github Three-Flow](https://guides.github.com/introduction/flow/index.html)).
 
 We actively welcome your pull requests:
 
 1. Fork the repo and create your branch from `master`.
 
-2. make your propsoed chnages
+2. make your proposed changes
 
 3. Issue that pull request!
 
 ## Any contributions you make will be under the MIT Software License
+
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's issues
