@@ -18,7 +18,9 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 We actively welcome your pull requests:
 
 1. Fork the repo and create your branch from `master`.
+
 2. make your propsoed chnages
+
 3. Issue that pull request!
 
 ## Any contributions you make will be under the MIT Software License
@@ -26,7 +28,25 @@ In short, when you submit code changes, your submissions are understood to be un
 
 ## Report bugs using Github's issues
 
-We use GitHub issues to track public bugs. Report a bug by opening a new issue, it's that easy!
+To add an issue to GitHub Issues, follow these steps:
+
+1. Visit the repository: Navigate to the ORPML repository where you want to add the issue. Ensure that you have a GitHub account and are logged in.
+
+2. Go to Issues: Click on the "Issues" tab located at the top of the repository's page. This will take you to the issues section of the repository.
+
+3. Create a new issue: On the issues page, click on the green "New issue" button. You will be directed to a new page where you can input the details of the issue.
+
+4. Provide a title and description: Give your issue a descriptive title that summarizes the problem or feature request. In the description, provide additional information, including steps to reproduce the issue (if applicable) or any specific context.
+
+5. Add labels and assignees (optional): You can enhance the issue's organization by assigning labels that categorize it, such as "bug," "enhancement," or "documentation." You can also assign the issue to specific team members by mentioning them as assignees.
+
+6. Submit the issue: Once you have filled in the necessary details, click on the "Submit new issue" button. Your issue will be added to the repository's list of issues, where it can be viewed and tracked by others.
+
+Remember to be clear and concise when describing the issue and providing relevant information. This will help others understand and address the problem effectively.
+
+## Semantic Versioning
+
+We use semantic Versioning, to version tag the ORPML open standard, semantic Versioning is a versioning scheme that uses a three-part number format (X.Y.Z) to convey information about compatibility, changes, and updates.
 
 ## What does the Code of Conduct mean for me?
 
