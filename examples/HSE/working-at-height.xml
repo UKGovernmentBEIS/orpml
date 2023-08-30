@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orpml xmlns="http://www.beis.gov.uk/namespaces/orpml"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.beis.gov.uk/namespaces/orpml orpml-0.1.xsd">
+  <metadata>
+    <dublinCore>
+      <!-- mandatory metadata - start -->
+      <contributor>HSE</contributor>
+      <coverage>England</coverage>
+      <created>2014-01-01</created>
+      <creator>HSE</creator>
+      <description>This brief guide describes what you, as an employer, need to do to protect your employees from falls from height. It will also be useful to employees and their representatives.</description>
+      <format>HTML</format>
+      <identifier>INDG401</identifier>
+      <issued>2014-01-01</issued>
+      <language>en-GB</language>
+      <modified>2014-01-01</modified>
+      <subject>Working at height - a brief guide</subject>
+      <title>Working at Height</title>
+      <type>guidance</type>
+      <!-- mandatory metadata - end -->
+    </dublinCore>
+    <dcat>
+      <!-- mandatory metadata - start -->
+      <frequency>irregular</frequency>
+      <itemTitle>Working at Height</itemTitle>
+      <keywords>
+        <keyword>working</keyword>
+        <keyword>height</keyword>
+        <keyword>safety</keyword>
+      </keywords>
+      <relatedResource>
+        <title>Health and safety in roof work</title>
+        <url>https://www.beis.gov.uk/orp/hse/health-safety-roof/2020</url>
+        <type>guidance</type>
+        <relationshipType>???</relationshipType><!-- see above, perhaps 'sibling' as resource from same regulator? -->
+      </relatedResource>
+      <relatedResource>
+        <title>Fragile roofs</title>
+        <url>https://www.beis.gov.uk/orp/hse/fragile-roofs/2012</url>
+        <type>guidance</type>
+        <relationshipType>???</relationshipType><!-- see above, perhaps 'sibling' as resource from same regulator? -->
+      </relatedResource>
+      <topic>???</topic><!-- TBD need topic list from DCAT -->
+      <!-- mandatory metadata - end -->
+
+      <!-- optional metadata - start -->
+      <identifierOther>
+        <identifier>
+          <type>ISBN</type>
+          <value>9780717664900</value>
+        </identifier>
+      </identifierOther>
+      <seriesTitle>INDG401 (rev2)</seriesTitle>
+      <!-- optional metadata - end -->
+    </dcat>
+    <orp>
+      <!-- mandatory metadata - start -->
+      <!-- GDS taxonomy topics -->
+      <regulatoryTopic>Work</regulatoryTopic>
+      <regulatoryTopic>Health and safety at work</regulatoryTopic>
+      <status>published</status>
+      <!-- mandatory metadata - end -->
+    </orp>
+  </metadata>
+  <documentContent>
+    <html>
+      <body>
+        <article aria-label="Working at Height"> 
+          <a href="./article" aria-describedby="Working at Height - a brief guide"> 
+            <h1>Working at height</h1> 
+          </a> 
+          <h2>A brief guide</h2>
+          <section aria-label="introduction"> 
+            <a href="./introduction"></a>
+            <h3>Introduction</h3>
+            This brief guide describes what you, as an employer, need to do to protect your employees from falls from height. It will also be useful to employees and their representatives. Following this guidance is normally enough to comply with the Work at Height Regulations 2005 (WAHR). You are free to take other action, except where the guidance says you must do something specific. Falls from height are one of the biggest causes of workplace fatalities and major injuries. Common causes are falls from ladders and through fragile roofs. The purpose of WAHR is to prevent death and injury from a fall from height. Work at height means work in any place where, if there were no precautions in place, a person could fall a distance liable to cause personal injury. For example you are working at height if you: 
+            <ul>
+              <li>are working on a ladder or a flat roof&#59;</li>
+              <li>could fall through a fragile surface&#59;</li>
+              <li>could fall into an opening in a floor or a hole in the ground.</li>
+            </ul>
+            Take a sensible approach when considering precautions for work at height. There may be some low-risk situations where common sense tells you no particular precautions are necessary and the law recognises this. There is a common misconception that ladders and stepladders are banned, but this is not the case. There are many situations where a ladder is the most suitable equipment for working at height. Before working at height you must work through these simple steps:
+            <ul>
+              <li>avoid work at height where it is reasonably practicable to do so&#59;</li>
+              <li>where work at height cannot be avoided, prevent falls using either an existing place of work that is already safe or the right type of equipment&#59;</li>
+              <li>minimise the distance and consequences of a fall, by using the right type of equipment where the risk cannot be eliminated.</li>
+            </ul>
+            Figure 1 gives further guidance and examples for each of the above steps to help you comply with the law. You should:
+             <ul>
+              <li>do as much work as possible from the ground&#59;</li>
+              <li> ensure workers can get safely to and from where they work at height&#59;</li>
+              <li>■ ensure equipment is suitable, stable and strong enough for the job, maintained and checked regularly&#59;</li>
+              <li>make sure you don’t overload or overreach when working at height&#59;</li>
+              <li>take precautions when working on or near fragile surfaces&#59;</li>
+              <li>provide protection from falling objects&#59;</li>
+              <li>■ consider your emergency evacuation and rescue procedures.</li>
+            </ul>
+          </section>
+          <section aria-label="Who do the Regulations apply to?"> 
+            <a href="./Who do the Regulations apply to?"></a>
+            <h3>Who do the Regulations apply to?</h3>
+            If you are an employer or you control work at height (for example if you are a contractor or a factory owner), the Regulations apply to you. 
+          </section>  
+          <section aria-label="How do you comply with these Regulations?"> 
+            <a href="./How do you comply with these Regulations?"/> 
+            <h3>How do you comply with these Regulations?</h3>
+            Employers and those in control of any work at height activity must make sure work is properly planned, supervised and carried out by competent people. This includes using the right type of equipment for working at height. Low-risk, relatively straightforward tasks will require less effort when it comes to planning. Employers and those in control must first assess the risks. See the risk assessment website for more advice at www.hse.gov.uk/risk/risk-assessment.htm. Take a sensible, pragmatic approach when considering precautions for work at height. Factors to weigh up include the height of the task; the duration and frequency; and the condition of the surface being worked on. There will also be certain low-risk situations where common sense tells you no particular precautions are necessary. 
+          <section aria-label="How do you decide if someone is ‘competent’ to work at height?"> 
+            <a href="./How do you decide if someone is ‘competent’ to work at height?"/> 
+            <h3>How do you decide if someone is ‘competent’ to work at height?</h3>
+            You should make sure that people with sufficient skills, knowledge and experience are employed to perform the task, or, if they are being trained, that they work under the supervision of somebody competent to do it. In the case of low-risk, short duration tasks (short duration means tasks that take less than 30 minutes) involving ladders, competence requirements may be no more than making sure employees receive instruction on how to use the equipment safely (eg how to tie a ladder properly) and appropriate training. Training often takes place on the job, it does not always take place in a classroom. When a more technical level of competence is required, for example drawing up a plan for assembling a complex scaffold, existing training and certification schemes drawn up by trade associations and industry is one way to help demonstrate competence. 
+          </section>
+          <section aria-label="What measures should you take to help protect people?"> 
+            <a href="./What measures should you take to help protect people?"/> 
+            <h3>What measures should you take to help protect people?</h3>
+            Always consider measures that protect everyone who is at risk (collective protection) before measures that protect only the individual (personal protection). Collective protection is equipment that does not require the person working at height to act to be effective, for example a permanent or temporary guard rail. Personal protection is equipment that requires the individual to act to be effective. An example is putting on a safety harness correctly and connecting it, via an energy-absorbing lanyard, to a suitable anchor point. The step-by-step diagram in Figure 1 should be used alongside all other advice in this leaflet. You do not always need to implement every measure in Figure 1. For example when working on a fully boarded and guarded scaffold that is already up, not being altered or taken down, workers would not need to wear personal fallarrest equipment as well. 
+          </section>
+          <section aria-label="What are the most common causes of accidents when working at height?"> 
+            <a href="./What are the most common causes of accidents when working at height?"/> 
+            <h3>What are the most common causes of accidents when working at height?</h3>
+            Roof work is high risk and falls from roofs, through fragile roofs and fragile roof lights are one of the most common causes of workplace death and serious injury. As well as in construction, these accidents can also occur on roofs of factories, warehouses and farm buildings when roof repair work or cleaning is being carried out. The following are likely to be fragile:  
+            <ul>
+              <li>roof lights&#59;</li>
+              <li>liner panels on built-up sheeted roofs&#59;</li>
+              <li>non-reinforced fibre cement sheets&#59;</li>
+              <li>corroded metal sheets&#59;</li>
+              <li>glass (including wired glass)&#59;</li>
+              <li>rotted chipboard&#59;</li>
+              <li>slates and tiles.</li>
+            </ul>
+            Fragile roof accidents are preventable and information on safe working practices can be found in the HSE information sheet Fragile roofs: Safe working practices (see ‘Further reading’).
+          </section>
+          <section aria-label="What do you need to consider when planning work at height?"> 
+            <a href="./What do you need to consider when planning work at height?"/> 
+            <h3>What do you need to consider when planning work at height?</h3>
+            The following are all requirements in law that you need to consider when planning and undertaking work at height. You must: 
+            <ul>
+              <li>take account of weather conditions that could compromise worker safety&#59;</li>
+              <li>check that the place (eg a roof) where work at height is to be undertaken is safe. Each place where people will work at height needs to be checked every time, before use&#59;</li>
+              <li>stop materials or objects from falling or, if it is not reasonably practicable to prevent objects falling, take suitable and sufficient measures to make sure no one can be injured, eg use exclusion zones to keep people away or mesh on scaffold to stop materials such as bricks falling off&#59;</li>
+              <li>store materials and objects safely so they won’t cause injury if they are disturbed or collapse&#59;</li>
+              <li>plan for emergencies and rescue, eg agree a set procedure for evacuation. Think about foreseeable situations and make sure employees know the emergency procedures. Don’t just rely entirely on the emergency services for rescue in your plan.</li>
+            </ul>
+          </section>
+          <section aria-label="Step-by-step diagram"> 
+            <a href="./Step-by-step diagram"/> 
+            <h3>Step-by-step diagram</h3>
+            <section aria-label="Can you AVOID working at height, in the first place? If NO, go to PREVENT"> 
+            <a href="./"Can you AVOID working at height, in the first place? If NO, go to PREVENT"/> 
+            <h3>Can you AVOID working at height, in the first place? If NO, go to PREVENT</h3>
+            Do as much work as possible from the ground. 
+            Some practical examples include:
+            <ul>
+              <li>Using extendable tools from ground level to remove the need to climb a ladder</li>
+              <li>Installing cables at ground level</li>
+              <li>Lowering a lighting mast to ground level</li>
+              <li>Ground level assembly of edge protection</li>
+            </ul>
+            <section aria-label="Can you PREVENT a fall from occurring? If NO, go to MINIMISE"> 
+            <a href="./"Can you PREVENT a fall from occurring? If NO, go to MINIMISE"/> 
+            <h3>Can you PREVENT a fall from occurring? If NO, go to MINIMISE</h3>
+            You can do this by:
+            <ul>
+              <li>using an existing place of work that is already safe, eg a nonfragile roof with a permanent perimeter guard rail or, if not</li>
+              <li>using work equipment to prevent people from falling</li>
+            </ul>
+            Some practical examples of collective protection when using an existing place of work:
+            <ul>
+              <li>a concrete flat roof with existing edge protection, or guarded mezzanine floor, or plant or machinery with fixed guard rails around it</li>
+            </ul>
+            Some practical examples of collective protection using work equipment to prevent a fall:
+            <ul>
+              <li>mobile elevating work platforms (MEWPs) such as scissor lifts</li>
+              <li>tower scaffolds</li>
+              <li>scaffolds</li>
+            </ul>
+            An example of personal protection using work equipment to prevent a fall:
+            <ul>
+              <li>using a work restraint (travel restriction) system that prevents a worker getting into a fall position</li>
+            </ul>
+             <section aria-label="Can you MINIMISE the distance and/or consequences of a fall?"> 
+            <a href="./"Can you MINIMISE the distance and/or consequences of a fall?"/> 
+            <h3>Can you MINIMISE the distance and/or consequences of a fall?</h3>
+            If the risk of a person falling remains, you must take sufficient measures to minimise the distance and/or consequences of a fall.
+            Practical examples of collective protection using work equipment to minimise the distance and consequences of a fall:
+            <ul>
+              <li>safety nets and soft landing systems, eg air bags, installed close to the level of the work</li>
+            </ul>
+            An example of personal protection used to minimise the distance and consequences of a fall:
+            <ul>
+              <li>industrial rope access, eg working on a building façade</li>
+              <li>fall-arrest system using a high anchor point</li>
+            </ul>
+             <section aria-label="Using ladders and stepladders"> 
+            <a href="./"Using ladders and stepladders"/> 
+            <h3>Using ladders and stepladders</h3>
+            For tasks of low risk and short duration, ladders and stepladders can be a sensible and practical option.
+            If your risk assessment determines it is correct to use a ladder, you should further MINIMISE the risk by making sure workers:
+            <ul>
+              <li>use the right type of ladder for the job</li>
+              <li>are competent (you can provide adequate training and/or supervision to help</li>
+              <li>use the equipment provided safely and follow a safe system of work</li>
+              <li>are fully aware of the risks and measures to help control them</li>
+            </ul>
+            Follow HSE guidance on safe use of ladders and stepladders at www.hse.gov.uk/work-at-height/index.htm
+          </section>   
+          <section aria-label="How do you select the right equipment to use for a job?"> 
+            <a href="./How do you select the right equipment to use for a job?"/> 
+            <h3>How do you select the right equipment to use for a job?</h3>
+            When selecting equipment for work at height, employers must:
+            <ul>
+              <li>provide the most suitable equipment appropriate for the work (use Figure 1 to help you decide)&#59;</li>
+              <li>take account of factors such as:&#59;</li>
+              <ul>
+                <li>the working conditions (eg weather)&#59;</li>
+                <li>the nature, frequency and duration of the work&#59;</li>
+                <li>the risks to the safety of everyone where the work equipment will be used.</li>
+              <ul>  
+            </ul>
+            If you are still unsure which type of equipment to use, once you have considered the risks, the Work at height Access equipment Information Toolkit (or WAIT) is a free online resource that offers possible solutions. It provides details of common types of equipment used for work at height. HSE has also produced a guide on the safe use of ladders and stepladders (see ‘Further reading’). 
+          </section>
+          <section aria-label="How do you make sure the equipment itself is in good condition?"> 
+            <a href="./How do you make sure the equipment itself is in good condition?"/> 
+            <h3>How do you make sure the equipment itself is in good condition?</h3>
+            Work equipment, for example scaffolding, needs to be assembled or installed according to the manufacturer’s instructions and in keeping with industry guidelines. Where the safety of the work equipment depends on how it has been installed or assembled, an employer should ensure it is not used until it has been inspected in that position by a competent person. A competent person is someone who has the necessary skills, experience and knowledge to manage health and safety. Guidance on appointing a competent person can be found at www.hse.gov.uk/competence. Any equipment exposed to conditions that may cause it to deteriorate, and result in a dangerous situation, should be inspected at suitable intervals appropriate to the environment and use. Do an inspection every time something happens that may affect the safety or stability of the equipment, eg adverse weather, accidental damage. You are required to keep a record of any inspection for types of work equipment including: guard rails, toe-boards, barriers or similar collective means of protection; working platforms (any platform used as a place of work or as a means of getting to and from work, eg a gangway) that are fixed (eg a scaffold around a building) or mobile (eg a mobile elevated working platform (MEWP) or scaffold tower); or a ladder. Any working platform used for construction work and from which a person could fall more than 2 metres must be inspected: 
+            <ul>
+              <li>after assembly in any position&#59;</li>
+              <li>after any event liable to have affected its stability&#59;</li>
+              <li>at intervals not exceeding seven days. </li>
+            <ul>
+            Where it is a mobile platform, a new inspection and report is not required every time it is moved to a new location on the same site. You must also ensure that before you use any equipment, such as a MEWP, which has come from another business or rental company, it is accompanied by an indication (clear to everyone involved) when the last thorough examination has been carried out.
+          </section>
+          <section aria-label="What must employees do?"> 
+            <a href="./What must employees do?"/> 
+            <h3>What must employees do?</h3>
+            Employees have general legal duties to take reasonable care of themselves and others who may be affected by their actions, and to co-operate with their employer to enable their health and safety duties and requirements to be complied with. For an employee, or those working under someone else’s control, the law says they must:
+            <ul>
+              <li>report any safety hazard they identify to their employer&#59;</li>
+              <li>use the equipment and safety devices supplied or given to them properly, in accordance with any training and instructions (unless they think that would be unsafe, in which case they should seek further instructions before continuing).</li>
+            </ul>
+            You must consult your employees (either directly or via safety representatives), in good time, on health and safety matters. Issues you must consult employees on include:
+            <ul>
+              <li>risks arising from their work&#59;</li>
+              <li>proposals to manage and/or control these risks&#59;</li>
+              <li>the best ways of providing information and training.</li>
+            </ul>
+            Employers can ask employees and their representatives what they think the hazards are, as they may notice things that are not obvious and may have some good, practical ideas on how to control the risks. See the worker involvement website for more information on consulting employees (www.hse.gov.uk/involvement).
+          </section>
+          <section aria-label="What must architects and building designers do?"> 
+            <a href="./What must architects and building designers do?"/> 
+            <h3>What must architects and building designers do?</h3>
+            When planning new-build or refurbishment projects, architects and designers have duties under The Construction (Design and Management) Regulations, to consider the need for work to be carried out at height over the lifespan of a building, eg to clean, maintain and repair it. They should design out the need to work at height if possible.
+           <section aria-label="Further reading"> 
+            <a href="./Further reading"/> 
+            <h3>Further reading</h3>  
+            HSE’s website provides more advice, guidance and answers to frequently asked questions. Industries and trade associations have produced guidance about working at height for specific jobs or for using certain types of access equipment. Find out more at www.hse.gov.uk/work-at-height/index.htm You can access the Work at height Access equipment Information Toolkit (WAIT) at www.hse.gov.uk/work-at-height/wait/index.htm Using ladders and stepladders safely: A brief guide Leaflet INDG455 HSE Books 2014 www.hse.gov.uk/pubns/indg455.htm Health and safety in roof work HSG33 (Fourth edition) HSE Books 2012 ISBN 978 0 7176 6527 3 www.hse.gov.uk/pubns/books/hsg33.htm Further guidance on risk assessment can be found at www.hse.gov.uk/risk Further information about CDM and design requirements can be found at www.hse.gov.uk/construction/cdm.htm The Work at Height Regulations 2005 SI 2005/735 The Stationery Office 2005 www.legislation.gov.uk Fragile roofs: Safe working practices General Information Sheet GEIS5 HSE Books 2012 www.hse.gov.uk/pubns/geis5.htm
+           <section aria-label="Further information"> 
+            <a href="./Further information"/> 
+            <h3>Further information</h3>  
+            For information about health and safety, or to report inconsistencies or inaccuracies in this guidance, visit www.hse.gov.uk. You can view HSE guidance online and order priced publications from the website. HSE priced publications are also available from bookshops. This guidance is issued by the Health and Safety Executive. Following the guidance is not compulsory, unless specifically stated, and you are free to take other action. But if you do follow the guidance you will normally be doing enough to comply with the law. Health and safety inspectors seek to secure compliance with the law and may refer to this guidance. This leaflet is available at www.hse.gov.uk/pubns/indg401.htm.
+          </section>
+            <!-- other content elided -->
+          </section> 
+        </article>
+      </body>
+    </html> 
+  </documentContent>
+</orpml>
