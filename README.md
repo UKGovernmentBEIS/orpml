@@ -1,6 +1,6 @@
 # ORPML
 
-Contains the explanation, schemas and example usage of ORPML (TO BE TRANSFERED TO DBaT WHEN READY)
+Contains the explanation, schemas and example usage of ORPML 
 
 ## What is ORPML?
 
