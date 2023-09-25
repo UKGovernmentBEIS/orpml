@@ -1,12 +1,12 @@
 # ORPML
 
-Contains the explanation, schemas and example usage of ORPML (TO BE TRANSFERED TO DBaT WHEN READY)
+Contains the explanation, schemas and example usage of ORPML 
 
 ## What is ORPML?
 
 ORPML stands for Open Regulation Platform Markup Language.
 It describes regulatory content that is resident in the [Open Regulation Platform](https://app.dev.open-regulation.beis.gov.uk/unauthorised/ingest) (ORP).
-The ORP is owned by the [Better Regulation Executive](https://www.gov.uk/government/groups/better-regulation-executive) (BRE) - a division within the [Department for Business and Trade](https://www.gov.uk/government/organisations/department-for-business-and-trade) (DBaT).
+The ORP is owned by the [Better Regulation Executive](https://www.gov.uk/government/groups/better-regulation-executive) (BRE) - a division within the [Department for Business and Trade](https://www.gov.uk/government/organisations/department-for-business-and-trade) (DBT).
 
 Data passed to the ORP (for ingestion) and search results for queries on the ORP, will both use these schemas for accepting and formatting data.
 
@@ -22,14 +22,11 @@ ORPML describes documents that reside within the ORP. Specifically, it describes
 Regulators that contribute content to the ORP will provide their content in ORPML and send it to the ORP via an API.
 Users of the ORP (RegTech companies, citizens..) can search the ORP and receive results where each returned document is formatted in ORPML.
 
-### Where can I see more technical details?
-
-The DBaT github [organisation](https://github.com/UKGovernmentBEIS) will contain the ORPML repo which will contain the design decisions of the standard and each release of the standard in XML schema. The repository is not currently live but it is envisaged that it will be mid 2023.
 
 ### What stage is it in?
 
 Currently, the standard is at v0.1.
-Major changes to both the nature and content of the standard should be expected.
+**Major changes to both the nature and content of the standard should be expected.**
 Initial consultation with both regulators and RegTech companies will use v0.1 as a discussion point.
 
 ## What has been its creation process to date?
@@ -139,7 +136,7 @@ Specifically, the gov.uk guide to record sharing asks you to consider the follow
 These elements are specific to ORPML content and not part of external schemas.
 We have tried to minimise the number of these elements as much as possible.
 
-### Content [NOT COMPLETED YET]
+### Content
 
 It is proposed that all content provided in ORPML be HTML.
 The benefits of using HTML as the content markup are severalfold:
