@@ -54,8 +54,8 @@ ORPML differs from CLML in its usage of DublinCore in 2 important ways: 1. ORPML
 
 The following parts of CLML have _not_ been adopted into ORPML:
 The use of CLML markup for describing the content of material.
-It was determined that CML markup was too specific to legal material (it is based on legal Markup language Akono Ntoso). The nature of regulatory material is very varied and can range from guides and practice notes that are similar in nature to simple ‘how to’ guides, to standards and rules that are highly structured in nature. CLML is focused on redaction, amendment and enforcement of material and has specific abilities to deal with these important parts of legislation. Regulatory material is not so concerned with amendments below the document level, i.e. the section, sub-section or clause level.
-In ORPML’s choice of content markup, we learned from some of the issues that The National Archives have faced with Akono Ntoso. The National Archives provide all material in Akono Ntoso, but in a more widespread standard e.g. the use of a HTML5 representation of Akono Ntoso.
+It was determined that CML markup was too specific to legal material (it is based on legal Markup language Akoma Ntoso). The nature of regulatory material is very varied and can range from guides and practice notes that are similar in nature to simple ‘how to’ guides, to standards and rules that are highly structured in nature. CLML is focused on redaction, amendment and enforcement of material and has specific abilities to deal with these important parts of legislation. Regulatory material is not so concerned with amendments below the document level, i.e. the section, sub-section or clause level.
+In ORPML’s choice of content markup, we learned from some of the issues that The National Archives have faced with Akoma Ntoso. The National Archives provide all material in Akoma Ntoso, but in a more widespread standard e.g. the use of a HTML5 representation of Akoma Ntoso.
 
 ### The CDDO
 
@@ -64,7 +64,7 @@ Work has been done to compare DCAT and DublinCore (DCAT is itself based on Dubli
 
 ### Other standards considered
 
-[Akono Ntoso](http://www.akomantoso.org) - this was rejected for the reasons stated above. In addition, the creation of Akono Ntoso is typically done using legal publishing tools and it was considered burdensome to regulators to make them use these tools for more loosely structured content.
+[Akoma Ntoso](http://www.akomantoso.org) - this was rejected for the reasons stated above. In addition, the creation of Akoma Ntoso is typically done using legal publishing tools and it was considered burdensome to regulators to make them use these tools for more loosely structured content.
 Schema.org - ORP would have to create a schema for its material. Whilst there is a [guide](https://schema.org/Guide) already, this would not meet the needs of all regulatory material - specifically more formally structured content such as specifications and rules.
 
 ## What are the current decisions?
